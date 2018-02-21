@@ -34,14 +34,13 @@ header {
     height: 75px;
     width: 100%;
     border-radius: 4px;
-    background-color: rgb(0, 129, 180);
-    opacity: .6;
+    background-color: rgb(103, 162, 185);
+    opacity: .8;
     margin-bottom: 20px;
-}
-
-#scores div{
     font-size: 200%;
 }
+
+
 
 main {
     width: 800px;
@@ -49,7 +48,6 @@ main {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 20px;
 }
 
 main div {
@@ -117,16 +115,20 @@ main div {
     background-size: 100%
 }
 
-
 @media (max-width: 825px) {
     html {
         font-size: 75%;
     }
     header {
-        height: 75px;
-    } 
+        height: 70px;
+        margin-bottom: 10px;
+    }
     .title {
         font-size: 150%;
+    }
+    #scores {
+        height: 50px;
+        margin-bottom: 10px;
     }
     main {
         width: 100%;
@@ -135,6 +137,10 @@ main div {
         width: 120px;
         height: 120px;
         font-size: 200%;
+        
     }
-
- }
+    #computerWin {
+        width: 120px;
+        height: 120px;
+    }
+}
