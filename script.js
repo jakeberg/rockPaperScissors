@@ -8,6 +8,7 @@ function selection(event) {
 
     var text;
 
+    // Chacks to see who wins, then sends the correct text to the page
     if (p1 == 3 && c == 1) {
         text = "Rock beats Scissors. You win!";
     } else if (p1 == 1 && c == 3) {
@@ -26,6 +27,7 @@ function selection(event) {
     
     document.getElementById("winner").innerHTML = text;
 
+    // Adds the correct image to the computer's choice
     if (c == 1){
         let element = document.getElementById("computerWin");
         element.style.backgroundImage = 'url(assets/scissors.png)';
