@@ -65,7 +65,8 @@ main div {
 
 .rock {
     background-image: url("assets/rock.png");
-    background-size: 100%
+    background-size: 100%;
+    cursor: pointer;
 }
 
 .rock:hover {
@@ -75,7 +76,8 @@ main div {
 
 .paper {
     background-image: url("assets/paper.png");
-    background-size: 100%
+    background-size: 100%;
+    cursor: pointer;
 }
 
 .paper:hover {
@@ -85,7 +87,8 @@ main div {
 
 .scissors {
     background-image: url("assets/scissors.png");
-    background-size: 100%
+    background-size: 100%;
+    cursor: pointer;
 }
 
 .scissors:hover {
