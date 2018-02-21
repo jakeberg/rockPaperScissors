@@ -23,6 +23,7 @@ function selection(event) {
     } else if (p1 == c) {
         text = "Draw!";
     }
+    
     document.getElementById("winner").innerHTML = text;
 
     if (c == 1){
